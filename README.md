@@ -17,9 +17,13 @@ check_nrpe -H $SERVERIP$ -c procruntime -a '-warning 15 -critical 20 -procname p
 Example:
 
 Command:	check_nrpe -H '12.23.45.67' -c procruntime -a '-warning 15 -critical 20 -procname python.exe -cmdline python-script.py -gtlt gt'
+
 Monitored by:	opsview-collector-cluster
+
 Hostname run on:	ops-coll-01
+
 Return code:	2
+
 Output:	Process 6612 - with @{CommandLine=C:\software\python\python.exe C:/Files/scripts/python-script.py --config C:/Users/ADMINI~1/python-script.yaml} is running 62253 minutes
 CRITICAL: 1 processes - warning/critical
 
