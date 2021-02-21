@@ -30,7 +30,11 @@ CRITICAL: 1 processes - warning/critical
 Keys:
 
 -warning - munutes. Show warning alert if process/es are running more/less(depends of -gtlt) then X minutes.
+
 -critical  - munutes. Show critical alert if process/es are running more/less(depends of -gtlt) then X minutes.
+
 -procname - process name.
+
 -cmdline - full all part command line.
+
 -gtlt - greater than or less than/
