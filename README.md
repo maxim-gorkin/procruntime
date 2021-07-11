@@ -1,7 +1,7 @@
 # procruntime
 Monitoring Windows process run time (PowerShell/Nagios/OPSView)
 
-The script was developed for OPSViewbut but should work with Nagios as well.
+The script was developed for OPSView but should work with Nagios as well.
 
 OPSView setup:
 
