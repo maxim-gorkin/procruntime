@@ -37,4 +37,4 @@ Keys:
 
 -cmdline - full all part command line.
 
--gtlt - greater than or less than/
+-gtlt - greater than or less than.
